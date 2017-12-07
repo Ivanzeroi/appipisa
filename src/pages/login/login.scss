@@ -1,0 +1,54 @@
+page-login{
+    .background{
+      background-image: url('../assets/wall2.jpeg');
+    }
+    .centrado{
+  
+      margin:10px auto;
+      display:block;
+    }
+  
+    .scroll-content{
+      align-content: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    ion-card.card{
+      box-shadow: none;
+      background: rgba(0, 0, 0, 0);
+      border-radius: 5px;
+    }
+    a,b,{
+      color: #fff;
+    }
+    .item{
+      margin-bottom: 10px;
+      background: rgba(0, 0, 0, 0);
+      border: medium none;
+  
+      .text-input,{
+        color: #fff;
+      }
+      input::-moz-placeholder{
+        color: #fff!important;
+      }
+      input:-moz-placeholder{
+        color: #fff!important;
+      }
+      *:-moz-placeholder{
+        color: #fff!important;
+      }
+      *:-ms-input-placeholder{
+        color: #fff!important;
+      }
+      *::-webkit-input-placeholder{
+        color: #fff!important;
+      }
+  
+    }
+  }
+  
+  
